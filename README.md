@@ -9,7 +9,11 @@
 Email Spam Detection(Scammers and hackers can find a new method of sending the spam emails different from the ones that are in the dataset)
 
 _MLOps Possible Scenarios_
-1. When themodel perfomance starts to decay. Assuming you have the _Email Spam Detection trained model_, you will eventually deploy the model but unfortunately you start seeing incorrect predictions.
+1. When the model perfomance starts to decay. Assuming you have the _Email Spam Detection trained model_, you will eventually deploy the model but unfortunately you start seeing incorrect predictions.
 Hackers now will change their strategy to fraud and this will force you to (re)collect and (re)train both the data and the model.
 
-2.
+2.We might need to reformulate our problem as it gets difficult to gatjer data which is free
+
+3. Violation of assumption that was made during model training
+
+4. When business objectives change
