@@ -41,6 +41,27 @@ _        _What is the business problem that I/we are trying to solve?_
 
 # Machine Learning Implementation Structure
 
+1. _Value Proposition_-
+   - Define the problem, its importance and the end-user persona(the person who is going to use the product).
+   - For instance ,for [target customer], who [need] our [product/service] is [product category] that [benefit]
+   - Make sure that the [benefit] is the more important than the rest
+2. _Data Sources_
+   -Internal Databases
+   - APIs
+   - Open datasets
+   - ------In thisprocess, consider hidden costs eg data storage and  purchasing external data --------
+
+3. _Prediction task_
+   -Supervised/unsupervised machine learning techniques? Is there an anomaly detection? Classification/Regression/Ranking?
+
+4. Feature Engineering
+   - Always work with _domain experts_ to _extract features from raw data sources_.eg in healthcare spaces(consult/work with a certified doctor to give you insights)
+
+5. Offline evaluation
+   - Set up some metrics to evaluate systempersomance pre-deployment.
+   - Understand prediction errors and impacts
+   - 
+
 
 
 
