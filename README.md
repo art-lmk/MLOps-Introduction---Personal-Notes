@@ -10,10 +10,16 @@ Email Spam Detection(Scammers and hackers can find a new method of sending the s
 
 _MLOps Possible Scenarios_
 1. When the model perfomance starts to decay. Assuming you have the _Email Spam Detection trained model_, you will eventually deploy the model but unfortunately you start seeing incorrect predictions.
-Hackers now will change their strategy to fraud and this will force you to (re)collect and (re)train both the data and the model.
+   Hackers now will change their strategy to fraud and this will force you to (re)collect and (re)train both the data and the model.
 
-2.We might need to reformulate our problem as it gets difficult to gatjer data which is free
+2. We might need to reformulate our problem as it gets difficult to gatjer data which is free
 
 3. Violation of assumption that was made during model training
 
-4. When business objectives change
+4. When business objectives change.
+
+   _Post-deployment woes_
+1. _Accounting for latency_- It is said that 53% of site visits are abandoned if the site takes longer than 3 seconds to load
+2. _Fairness_- eg Microsoft once launched _Twitter bot_ to learn from users. The bot quickly became racist.
+3. _Lack of explainability and accountability_- Just make sure the model is authentic enough
+4. _Slow_- Deploying models to production is very slow.
