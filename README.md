@@ -28,13 +28,18 @@ _Model-Centric Vs Data-Centric_
 - Model-Centric is where you _hold the _data-fixed__ while you _iteratively fix the model_.
 - Data-Centric is where you _hold the model fixed_ while you _iteratively fix the data_.
 
-
   Before starting anything(collecting data, deciding which model to use etc), first ask yourself the following question:
 _        _What is the business problem that I/we are trying to solve?_
 - Make sure you take care the cost of wrong predictions eg. _Overstocking_( can lead to _wasted resource_s  and _possible write-offs_),_Understocking_(can lead to _missed opportunities_, _unsatisfied custmers_).
 
 
+# SALES FORECASTING PROJECT
+- The project involves use of A/ML to analyze _past sales(histprical sales analysis)_ and _market trend(market trend analysis)_ to _predict future sales(Actual forecasting)_.
+- The _ROI(Return On Investment)_ could be estimated by comparing the_ potential increase in sales_ and _decrease in wasted resources_ due to _improved forecasts_ against the _cost of developing AI/ML solutions._
+- ROI-performance measure used to evaluate the efficiency or profitability of an investment. It compares the gain or loss from an investment relative to its cost.
 
+
+# Machine Learning Implementation Structure
 
 
 
