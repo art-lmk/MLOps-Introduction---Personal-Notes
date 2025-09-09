@@ -54,10 +54,10 @@ _        _What is the business problem that I/we are trying to solve?_
 3. _Prediction task_
    -Supervised/unsupervised machine learning techniques? Is there an anomaly detection? Classification/Regression/Ranking?
 
-4. Feature Engineering
+4. _Feature Engineering_
    - Always work with _domain experts_ to _extract features from raw data sources_.eg in healthcare spaces(consult/work with a certified doctor to give you insights)
 
-5. Offline evaluation
+5. _Offline evaluation_
    - Set up some metrics to evaluate systempersomance pre-deployment.
    - Understand prediction errors and impacts
    - 
