@@ -1,4 +1,4 @@
-# MLOps-Introduction---Personal-Notes
+# MLOps-Introduction--Notes
 -MLOps refers to applying/integrating DevOps priciples to Machine Learning.
 - 10% of the work here will be Machine  Learning and 90% will be engineering.
 - The process goes like:
@@ -23,3 +23,23 @@ _MLOps Possible Scenarios_
 2. _Fairness_- eg Microsoft once launched _Twitter bot_ to learn from users. The bot quickly became racist.
 3. _Lack of explainability and accountability_- Just make sure the model is authentic enough
 4. _Slow_- Deploying models to production is very slow.
+
+_Model-Centric Vs Data-Centric_
+- Model-Centric is where you _hold the _data-fixed__ while you _iteratively fix the model_.
+- Data-Centric is where you _hold the model fixed_ while you _iteratively fix the data_.
+
+
+  Before starting anything(collecting data, deciding which model to use etc), first ask yourself the following question:
+_        _What is the business problem that I/we are trying to solve?_
+- Make sure you take care the cost of wrong predictions eg. _Overstocking_( can lead to _wasted resource_s  and _possible write-offs_),_Understocking_(can lead to _missed opportunities_, _unsatisfied custmers_).
+
+
+
+
+
+
+
+
+
+
+
